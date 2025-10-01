@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+  transform: translateY(-2px);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+
+/* Mobile (576px) */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+  .sidebar {
+    margin-top: 20px;
+  }
+}
+
+/* Tablet (577px - 991px) */
+@media (min-width: 577px) and (max-width: 991px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  footer {
+    font-size: 0.85rem;
+  }
+}
+
+/* Desktop (992px) */
+@media (min-width: 992px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
